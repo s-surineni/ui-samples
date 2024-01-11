@@ -10,7 +10,6 @@ function App() {
       </header>
       <Routes>
         <Route exact path="/" element={<SampleHome />} />
-        {/* <Route path="/index" component={SampleHome} /> */}
       </Routes>
     </div>
   );
