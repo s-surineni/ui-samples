@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from "react-router-dom";
 import SampleHome from './components/samples/SamplesHome';
@@ -11,7 +10,7 @@ function App() {
       </header>
       <Routes>
         <Route exact path="/" element={<SampleHome />} />
-        <Route path="/sample/login1" component={<LoginPage />} />
+        <Route path="/sample/login1" element={<LoginPage />} />
       </Routes>
     </div>
   );
