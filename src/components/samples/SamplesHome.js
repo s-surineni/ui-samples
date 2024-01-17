@@ -15,7 +15,10 @@ const SampleHome = () => {
                         <td>1</td>
                         <td><Link to={"/sample/login1"}>Login1</Link></td>
                     </tr>
-
+                    <tr>
+                        <td>2</td>
+                        <td><Link to={"/sample/login2"}>Login2</Link></td>
+                    </tr>
                 </tbody>
                 </table>
         </div>
