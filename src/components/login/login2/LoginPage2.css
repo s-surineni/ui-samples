@@ -2,6 +2,7 @@
     background: rgb(141, 194, 111);
     height: 100%;
 }
+
 .login-box2 {
     width: 360px;
     /* centers login box horizontally */
@@ -13,6 +14,7 @@
     padding: 45px;
     background: #FFFFFF;
 }
+
 .form-box input {
     /* makes button appear in its own line */
     width: 100%;
@@ -22,6 +24,13 @@
 
 .form-box button {
     /* makes button size same as input */
+    font-family: "Roboto", sans-serif;
     width: 100%;
     border: 0;
+    background: #4CAF50;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-size: 14px;
+        cursor: pointer;
+        padding: 15px;
 }
