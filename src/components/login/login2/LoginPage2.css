@@ -1,3 +1,7 @@
+.component-box {
+    background: rgb(141, 194, 111);
+    height: 100%;
+}
 .login-box2 {
     width: 360px;
     /* centers login box horizontally */
