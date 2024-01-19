@@ -1,5 +1,6 @@
 .login-box2 {
     width: 360px;
+    /* centers login box horizontally */
     margin: auto;
     padding: 8% 0 0;
 }
@@ -7,4 +8,16 @@
 .form-box {
     padding: 45px;
     background: #FFFFFF;
+}
+.form-box input {
+    /* makes button appear in its own line */
+    width: 100%;
+    /* adds space below input */
+    margin: 0 0 15px;
+}
+
+.form-box button {
+    /* makes button size same as input */
+    width: 100%;
+    border: 0;
 }
