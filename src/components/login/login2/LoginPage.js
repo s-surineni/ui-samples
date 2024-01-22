@@ -9,6 +9,7 @@ function LoginPage() {
                         <input type="text" placeholder='Username' />
                         <input type="password" placeholder='Password' />
                         <button>Login</button>
+                        <p className="message">Not registered? <a href="#">Create an account</a></p>
                     </form>
                 </div>
             </div>
